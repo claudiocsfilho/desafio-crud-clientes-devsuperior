@@ -1,15 +1,19 @@
 package com.claudiocsfilho.desafio3_crud_clientes.dto;
 
 import com.claudiocsfilho.desafio3_crud_clientes.entities.Client;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.PastOrPresent;
 
 import java.time.LocalDate;
 
 public class ClientDTO {
 
     private Long id;
+    @NotBlank(message = "Campo necessário!")
     private String name;
     private String cpf;
     private Double income;
+    @PastOrPresent(message = "Insira uma data de nascimento válida!")
     private LocalDate birthDate;
     private Integer children;
 
