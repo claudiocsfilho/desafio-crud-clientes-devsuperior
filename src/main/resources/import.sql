@@ -1,0 +1,12 @@
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Nick Fury', '12345678901', 5000.0, '1995-05-10', 2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Arthur Morgan', '12345678905', 5850.0, '1992-07-18', 1);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Amanda Fowler', '12345678904', 12000.0, '1990-09-21', 4);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Mario Bros', '12345678978', 7650.0, '1991-07-27', 2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Dante Aligrieri', '12345678989', 8000.0, '1990-12-15', 0);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Brad Thomas', '12345678963', 5700.0, '1988-05-21', 2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Mark Tombs', '12345678908', 4000.0, '1999-08-09', 0);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Tom Delonge', '12345678987', 2500.0, '1981-02-19', 0);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Mary Poppins', '12345678952', 4500.0, '1998-11-10', 0);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Martha Fux', '12345678954', 7000.0, '1983-06-10', 2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Nicole Leeds', '12345678991', 3000.0, '1987-03-17', 1);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Mitsuo Kitame', '12345678925', 15000.0, '1985-01-19', 3);
